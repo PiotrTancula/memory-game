@@ -1,0 +1,1 @@
+ start the game by clicking 'start game' and afterwards simply guess the pairs of colors . When all 9 pairs will be guessed, the game ends, you can restart it by reloading the page and then play again 
