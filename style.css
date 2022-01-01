@@ -1,0 +1,144 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#gameSpace {
+    cursor: pointer;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    background-color:burlywood;
+}
+
+
+
+.color {
+
+    width: 9vw;
+    height: 9vw;
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin: 2vw;
+    z-index: 1;
+}
+
+.controlPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+    width: 90vw;
+    height: 10vh;
+    border: 2px solid black;
+
+}
+
+div .hidden {
+
+    width: 9vw;
+    height: 9vw;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: 5px solid rgba(1, 2, 0, 0);
+    margin: 2vw;
+
+
+}
+
+div .guessed {
+
+    width: 9vw;
+    height: 9vw;
+    background-color: black;
+    border: 5px solid rgba(1, 2, 0, 0);
+    margin: 2vw;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 9vw;
+    font-size: 2vw;
+
+}
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.orange {
+    background-color: orange;
+}
+
+
+.brown {
+    background-color: brown;
+}
+
+#start {
+    cursor:pointer;
+    height:6vh;
+    width:16vh;
+    margin:auto 1vw;
+    transition: 1s;
+}
+
+#start:hover {
+    border: 2px solid rgb(223, 24, 223);
+    background-color:rgba(0, 0, 0, 0.301);
+    color:  rgb(102, 3, 102);
+    
+}
+
+#pairsToBeGuessed,
+#pairsAlreadyGuessed {
+    font-size: 7vh;
+    text-align: center;
+    line-height: 6vh;
+    height:6vh;
+    width:10vh;
+    background-color: rgb(61, 196, 196);
+}
